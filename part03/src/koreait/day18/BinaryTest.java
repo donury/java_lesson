@@ -3,10 +3,11 @@ package koreait.day18;
 public class BinaryTest {
 
 	public static void main(String[] args) {
-		System.out.println("10Áø¼ö \t2Áø¼ö\t16Áø¼ö");
+		System.out.println("10ÃÃ¸Â¼Ã¶ \t2ÃÃ¸Â¼Ã¶\t16ÃÃ¸Â¼Ã¶");
 		for(int i=0; i<100;i++) {
 			System.out.println(String.format("%d\t%s\t%s" ,i,Integer.toBinaryString(i),
 					 Integer.toHexString(i)));
+		//10ì§„ìˆ˜, 2ì§„ìˆ˜,16ì§„ìˆ˜
 		}
 		
 	}
